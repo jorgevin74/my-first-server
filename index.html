@@ -8,6 +8,7 @@
     <style>
         body{
             animation: backgrndAni 5s infinite;
+            height: auto;
         }
 
         .content{
@@ -26,7 +27,7 @@
             border: none;
             background-color: #f27f1b;
             padding: 10px;
-            
+
         }
 
         button:hover{
@@ -56,7 +57,7 @@
         confettiButton.addEventListener('click', function(){
             confetti();
             confetti({
-                particleCount: 100,
+                particleCount: 200,
                 spread: 1000,
                 origin: {y: 0.50}
             })
