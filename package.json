@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jorgevin74/my-first-server#readme",
   "dependencies": {
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "js-confetti": "^0.13.1"
   }
 }

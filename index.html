@@ -24,8 +24,20 @@
     <!-- Your HTML goes here -->
 
     <h1>Happy Halloween!</h1>
+    <button id="button">Trick Or Treat!</button>
     <script>
-        // Your javascript code (optional)
+        const confettiButton = document.getElementById('button');
+
+        confettiButton.addEventListener('click', function(){
+
+            confetti();
+
+            confetti({
+                particleCount: 50,
+                spread: 60,
+                origin: {y: 0.50}
+            })
+        });
     </script>
 </body>
 </html>
